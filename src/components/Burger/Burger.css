@@ -3,11 +3,13 @@
     margin: auto;
     height: 250px;
     overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: hidden;
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
+}
+
+.Burger::-webkit-scrollbar {
+    display: none;
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
@@ -20,13 +22,14 @@
 @media (min-width: 500px) and (min-height: 401px) {
     .Burger {
         width: 450px;
-        height: 400px;
+        height: 325px;
     }
 }
 
-@media (min-width: 1000px) and (min-height: 700px) {
+
+/* @media (min-width: 1000px) and (min-height: 700px) {
     .Burger {
         width: 700px;
         height: 600px;
     }
-}
+} */
